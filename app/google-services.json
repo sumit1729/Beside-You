@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "375765875800",
+    "firebase_url": "https://therapyreminder-de144.firebaseio.com",
+    "project_id": "therapyreminder-de144",
+    "storage_bucket": "therapyreminder-de144.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375765875800:android:d69ab337361c227f",
+        "android_client_info": {
+          "package_name": "com.example.simonepirozzi.therapyreminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375765875800-cadpl2r8dvh36o08dkgmv62f3gm0oref.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.simonepirozzi.therapyreminder",
+            "certificate_hash": "8be59f97f1eb5bc5f3307815149d2e8330d8be11"
+          }
+        },
+        {
+          "client_id": "375765875800-mp5k2ig8fl104umuv285des1i4hgkkbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfnosgmVxuGBfQbjGxvBCkS_1VSk2W5dU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375765875800-mp5k2ig8fl104umuv285des1i4hgkkbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

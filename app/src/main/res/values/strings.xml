@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Therapy Reminder</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_nav_home">Home</string>
+    <string name="title_nav_therapy">Therapy</string>
+    <string name="title_nav_exam">Examination</string>
+    <string name="title_nav_doctor">Doctor</string>
+    <string name="title_nav_account">Account</string>
+    <string name="positive_button">Ok</string>
+    <string name="login_error">Username and/or Password incorrect</string>
+    <string name="login_error_blank">No fields must be left blank</string>
+    <string name="login">Login</string>
+    <string name="signin_link">Are you a new user? Sign Up</string>
+    <string name="forgotten_link">Forgot password ?</string>
+    <string name="signin">Sign Up</string>
+    <string name="name_signin">Name *</string>
+    <string name="surname_signin">Surname *</string>
+    <string name="bithday_signin">Birthday *</string>
+    <string name="do_you_have_account">Do you already have an account?</string>
+    <string name="home_days">days</string>
+    <string name="home_duration"> Duration:</string>
+    <string name="home_quantity"> Quantity:</string>
+    <string name="account">Account</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="birthday">Birthday</string>
+    <string name="edit">Edit</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_account">Are you sure you want to delete your account? After this operation it cannot be recovered</string>
+    <string name="account_edit_saved">The changes have been saved!</string>
+    <string name="edit_account_title">Edit Account</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+
+
+</resources>

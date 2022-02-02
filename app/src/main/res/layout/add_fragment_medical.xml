@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearTherapy"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nome *"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/addNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="sumit" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Last Name *"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/addSurname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="chakraborty" />
+
+
+        </LinearLayout>
+
+           <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_width="180dp"
+                   android:layout_height="wrap_content"
+                   android:text="Phone *"
+                   android:textColor="@android:color/background_dark"
+                   android:textSize="18sp" />
+
+               <EditText
+                   android:id="@+id/addPhone"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:ems="10"
+                   android:hint="01857464745"
+                   android:inputType="phone" />
+
+
+        </LinearLayout>
+
+            <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/addVia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Mohammadpur" />
+
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <Button
+                android:text="Add"
+                android:id="@+id/addDoctor"
+                android:background="@android:color/holo_green_dark"
+                android:textColor="@android:color/background_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               />
+
+
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</RelativeLayout>
